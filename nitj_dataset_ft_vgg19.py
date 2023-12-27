@@ -19,9 +19,9 @@ from keras.layers import Dense,Conv2D,MaxPooling2D,Flatten,BatchNormalization,Dr
 from google.colab import drive
 drive.mount('/drive')
 
-test_path='/drive/MyDrive/Recognition Objective 2/Spliting of data (full sized Images)/test'
-train_path='/drive/MyDrive/Recognition Objective 2/Spliting of data (full sized Images)/train'
-val_path='/drive/MyDrive/Recognition Objective 2/Spliting of data (full sized Images)/val'
+test_path='/drive/MyDrive/Spliting of data (full sized Images)/test'
+train_path='/drive/MyDrive/Spliting of data (full sized Images)/train'
+val_path='/drive/MyDrive/Spliting of data (full sized Images)/val'
 
 from keras.applications.vgg19 import VGG19
 conv_base = VGG19(
