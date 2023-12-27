@@ -10,7 +10,7 @@ Original file is located at
 !pip install -U --no-cache-dir gdown --pre
 !pwd
 
-!gdown 1G0GtOXzXwQuyoo819WwdzpSdazOb-zqe
+!gdown 1G0GtOXzXwQuyoo819WwdzpSda
 
 !unzip '/content/data spliting80_20.zip'
 
